@@ -1,26 +1,22 @@
 # DFRobot_DS3231M
 DS3231M is a low-cost, extremely accurate, I2C real-time clock(RTC) module. It can provide ±5%ppm accuracy (no more than 0.432s error) within the whole temperature range and life span, and is compatible with 2.5-5.5V wide voltage range. The current comsuption of the module is as low as 2uA when powered by batteries. This module can be used to measure ambient temperature with ±3℃ accuracy. The integration of the microelectromechanical systems (MEMS) resonator enhances the stability and accuracy of the device. MEMS resonator is an upgraded version of traditional quartz crystal oscillator, and it has 25 times seismic resistance of the later as well as better temperature stability.   <br>
 
-![正反面svg效果图](https://github.com/ouki-wang/DFRobot_Sensor/raw/master/resources/images/SEN0245svg1.png)
+<br>
+<img src="./image/DFR0641-image.jpg">
+<br>
 
-
-## Product Link （链接到英文商城）
-    SKU：产品名称
+* Arduino UNO
+<br>
+<img src="./image/DFR0641-CONNECT1.jpg">
+<br>
    
 ## Table of Contents
 
-* [Summary](#summary)
 * [Installation](#installation)
 * [Methods](#methods)
 * [Compatibility](#compatibility)
 * [History](#history)
 * [Credits](#credits)
-
-## Summary
-
-* Read the time the program was last compiled. <br>
-* Set a alarm clock to trigger at a specified time. <br>
-* Measure ambient temperature. <br>
 
 ## Installation
 
