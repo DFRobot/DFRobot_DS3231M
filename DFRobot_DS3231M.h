@@ -266,11 +266,9 @@ protected:
      */
     static uint8_t bin2bcd(uint8_t val);
     /*!
-     *@brief Write init time 
-     *@param date Write init date 
-     *@param time Write init time 
+     *@brief Calculate the day of the week
+     *@return Return day of week
      */
-    
     uint8_t  dayOfTheWeek() const ;
     uint8_t y,   ///< Year Offset
             m,  ///< Months
