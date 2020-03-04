@@ -12,11 +12,19 @@ DS3231M is a low-cost, extremely accurate, I2C real-time clock(RTC) module. It c
    
 ## Table of Contents
 
+* [URL](#url)
 * [Installation](#installation)
 * [Methods](#methods)
 * [Compatibility](#compatibility)
 * [History](#history)
 * [Credits](#credits)
+
+## URL
+* Project URL : ```https://github.com/DFRobot/DFRobot_DS3231M```
+
+* Tutorial URL : [Wiki](https://wiki.dfrobot.com/DS3231M%20MEMS%20Precise%20RTC%20SKU:%20DFR0641).
+
+* Get a purchase connection: [store](https://www.dfrobot.com/).
 
 ## Installation
 

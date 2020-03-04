@@ -10,6 +10,7 @@
  * @author [LuoYufeng](yufeng.luo@dfrobot.com)
  * @version  V0.1
  * @date  2019-08-19
+ * @get from https://www.dfrobot.com
  * @url https://github.com/DFRobot/DFRobot_DS3231M
  */
 #include "DFRobot_DS3231M.h"
