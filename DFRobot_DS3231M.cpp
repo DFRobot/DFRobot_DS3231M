@@ -148,8 +148,14 @@ void DFRobot_DS3231M::getNowTime(){
     readReg(DS3231M_REG_RTC_SEC, bcd, 7);
     _ss = bcd2bin(bcd[0] & 0x7F);
     _mm = bcd2bin(bcd[1]);
-    bcd[2] = bcd[2] << 3;
-    _hh = bcd2bin(bcd[2] >> 3);
+    if(bcd[2]&0x40){
+        bcd[2] = bcd[2] << 3;
+        _hh = bcd2bin(bcd[2] >> 3);
+    }
+    else{
+        bcd[2] = bcd[2] << 2;
+        _hh = bcd2bin(bcd[2] >> 2);
+    }
     _d = bcd2bin(bcd[4]);
     _m = bcd2bin(bcd[5]);
     _y = bcd2bin(bcd[6]) + 1970;
